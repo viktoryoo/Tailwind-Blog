@@ -1,0 +1,14 @@
+/* Lato and Sansita font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Sansita+Swashed:wght@400;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.blog-card {
+    @apply border border-gray-100 flex rounded-3xl overflow-hidden transition duration-500 hover:shadow-xl my-12
+}
+
+.post-title {
+    @apply font-bold text-pri text-2xl font-title py-7 transition duration-200 hover:text-sec
+}
